@@ -1,0 +1,109 @@
+s/#define/WINAPI __stdcall /g
+s/ATOM/unsigned short /g
+s/BOOL/int /g
+s/BOOLEAN/unsigned char /g
+s/BYTE/unsigned char /g
+s/CCHAR/char /g
+s/CHAR/char /g
+s/COLORREF/unsigned long /g
+s/CONST/const /g
+s/DWORD/unsigned long /g
+s/DWORD32/unsigned int /g
+s/FLOAT/float /g
+s/HACCEL/void* /g
+s/HANDLE/void* /g
+s/HBITMAP/void* /g
+s/HBRUSH/void* /g
+s/HCOLORSPACE/void* /g
+s/HCONV/void* /g
+s/HCONVLIST/void* /g
+s/HCURSOR/void* /g
+s/HDC/void* /g
+s/HDDEDATA/void* /g
+s/HDESK/void* /g
+s/HDROP/void* /g
+s/HDWP/void* /g
+s/HENHMETAFILE/void* /g
+s/HFILE/int /g
+s/HFONT/void* /g
+s/HGDIOBJ/void* /g
+s/HGLOBAL/void* /g
+s/HHOOK/void* /g
+s/HICON/void* /g
+s/HINSTANCE/void* /g
+s/HKEY/void* /g
+s/HKL/void* /g
+s/HLOCAL/void* /g
+s/HMENU/void* /g
+s/HMETAFILE/void* /g
+s/HMODULE/void* /g
+s/HPALETTE/void* /g
+s/HPEN/void* /g
+s/HRESULT/long /g
+s/HRGN/void* /g
+s/HRSRC/void* /g
+s/HSZ/void* /g
+s/HWINSTA/void* /g
+s/HWND/void* /g
+s/INT/int /g
+s/INT16/signed short /g
+s/INT32/signed int /g
+s/INT8/signed char /g
+s/LANGID/unsigned short /g
+s/LCID/unsigned long /g
+s/LCTYPE/unsigned long /g
+s/LGRPID/unsigned long /g
+s/LONG/long /g
+s/LONG32/signed int /g
+s/LPCOLORREF/unsigned long* /g
+s/LPCVOID/const void* /g
+s/LPDWORD/unsigned long /g
+s/LPHANDLE/void** /g
+s/LPINT/int* /g
+s/LPLONG/long* /g
+s/LPSTR/char* /g
+s/LPVOID/void* /g
+s/LPWORD/unsigned short* /g
+s/PBOOL/int* /g
+s/PBOOLEAN/unsigned char* /g
+s/PBYTE/unsigned char* /g
+s/PCHAR/char* /g
+s/PCSTR/const char* /g
+s/PDWORD/unsigned long* /g
+s/PDWORD32/unsigned int* /g
+s/PFLOAT/float* /g
+s/PHANDLE/void** /g
+s/PHKEY/void* /g
+s/PINT/int* /g
+s/PINT16/signed short* /g
+s/PINT32/signed int* /g
+s/PINT8/signed char* /g
+s/PLCID/unsigned long* /g
+s/PLONG/long* /g
+s/PSHORT/short* /g
+s/PSTR/char /g
+s/PUCHAR/unsigned char* /g
+s/PUINT/unsigned int* /g
+s/PUINT16/unsigned short* /g
+s/PUINT32/unsigned int* /g
+s/PUINT8/unsigned char* /g
+s/PULONG/unsigned long* /g
+s/PULONG32/unsigned int* /g
+s/PUSHORT/unsigned short* /g
+s/PVOID/void* /g
+s/PWORD/unsigned short /g
+s/SC_HANDLE/void* /g
+s/SC_LOCK/void* /g
+s/SERVICE_STATUS_HANDLE/void* /g
+s/SHORT/short /g
+s/typedef/INT_PTR *PINT_PTR; /g
+s/UCHAR/unsigned char /g
+s/UINT/unsigned int /g
+s/UINT16/unsigned short /g
+s/UINT32/unsigned int /g
+s/UINT8/unsigned char /g
+s/ULONG/unsigned long /g
+s/ULONG32/unsigned int /g
+s/USHORT/unsigned short /g
+s/VOID/void /g
+s/WORD/unsigned short /g

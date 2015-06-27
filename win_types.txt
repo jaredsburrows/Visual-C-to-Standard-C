@@ -1,0 +1,173 @@
+// #define APIENTRY WINAPI
+ATOM unsigned short
+BOOL int
+BOOLEAN unsigned char
+BYTE unsigned char
+// #define CALLBACK __stdcall
+CCHAR char
+CHAR char
+COLORREF unsigned long
+CONST const
+DWORD unsigned long
+// typedef unsigned __int64 DWORDLONG;
+// typedef ULONG_PTR DWORD_PTR;
+DWORD32 unsigned int
+// DWORD64 unsigned __int64
+FLOAT float
+HACCEL void*
+// HALF_PTR
+HANDLE void*
+HBITMAP void*
+HBRUSH void*
+HCOLORSPACE void*
+HCONV void*
+HCONVLIST void*
+HCURSOR void*
+HDC void*
+HDDEDATA void*
+HDESK void*
+HDROP void*
+HDWP void*
+HENHMETAFILE void*
+HFILE int
+HFONT void*
+HGDIOBJ void*
+HGLOBAL void*
+HHOOK void*
+HICON void*
+HINSTANCE void*
+HKEY void*
+HKL void*
+HLOCAL void*
+HMENU void*
+HMETAFILE void*
+HMODULE void*
+// if(WINVER >= 0x0500) typedef HANDLE HMONITOR;
+HPALETTE void*
+HPEN void*
+HRESULT long
+HRGN void*
+HRSRC void*
+HSZ void*
+HWINSTA void*
+HWND void*
+INT int
+// INT_PTR
+INT8 signed char
+INT16 signed short
+INT32 signed int
+// INT64 signed __int64
+LANGID unsigned short
+LCID unsigned long
+LCTYPE unsigned long
+LGRPID unsigned long
+LONG long
+// LONGLONG
+// LONG_PTR
+LONG32 signed int
+// LONG64 __int64
+LPARAM // LONG_PTR
+// typedef BOOL far *LPBOOL;
+// typedef BYTE far *LPBYTE;
+LPCOLORREF unsigned long*
+// typedef __nullterminated CONST CHAR *LPCSTR;
+// LPCTSTR
+LPCVOID const void*
+// LPCWSTR const WCHAR *
+LPDWORD unsigned long
+LPHANDLE void**
+LPINT int*
+LPLONG long*
+LPSTR char*
+// LPTSTR
+LPVOID void*
+LPWORD unsigned short*
+// LPWSTR
+// LRESULT 
+PBOOL int*
+PBOOLEAN unsigned char*
+PBYTE unsigned char*
+PCHAR char*
+PCSTR const char*
+// PCTSTR
+// PCWSTR
+PDWORD unsigned long*
+// typedef DWORDLONG *PDWORDLONG;
+// typedef DWORD_PTR *PDWORD_PTR;
+PDWORD32 unsigned int*
+// typedef DWORD64 *PDWORD64;
+PFLOAT float*
+// PHALF_PTR
+PHANDLE void**
+PHKEY void*
+PINT int*
+typedef INT_PTR *PINT_PTR;
+PINT8 signed char*
+PINT16 signed short*
+PINT32 signed int*
+// typedef INT64 *PINT64;
+PLCID unsigned long*
+PLONG long*
+// typedef LONGLONG *PLONGLONG;
+// typedef LONG_PTR *PLONG_PTR;
+// typedef LONG32 *PLONG32;
+// typedef LONG64 *PLONG64;
+// POINTER_32
+// POINTER_64
+// #define POINTER_SIGNED __sptr
+// #define POINTER_UNSIGNED __uptr
+PSHORT short*
+// typedef SIZE_T *PSIZE_T;
+// typedef SSIZE_T *PSSIZE_T;
+PSTR char
+// typedef TBYTE *PTBYTE;
+// typedef TCHAR *PTCHAR;
+// PTSTR
+PUCHAR unsigned char*
+// PUHALF_PTR
+PUINT unsigned int*
+// typedef UINT_PTR *PUINT_PTR;
+PUINT8 unsigned char*
+PUINT16 unsigned short*
+PUINT32 unsigned int*
+// typedef UINT64 *PUINT64;
+PULONG unsigned long*
+// typedef ULONGLONG *PULONGLONG;
+// typedef ULONG_PTR *PULONG_PTR;
+PULONG32 unsigned int*
+// typedef ULONG64 *PULONG64;
+PUSHORT unsigned short*
+PVOID void*
+// typedef WCHAR *PWCHAR;
+PWORD unsigned short
+// typedef WCHAR *PWSTR;
+// typedef unsigned __int64 QWORD;
+SC_HANDLE void*
+SC_LOCK void*
+SERVICE_STATUS_HANDLE void*
+SHORT short
+// typedef ULONG_PTR SIZE_T;
+// typedef LONG_PTR SSIZE_T;
+// TBYTE
+// TCHAR
+UCHAR unsigned char
+// UHALF_PTR 
+UINT unsigned int
+// UINT_PTR 
+UINT8 unsigned char
+UINT16 unsigned short
+UINT32 unsigned int
+// typedef usigned __int 64 UINT64;
+ULONG unsigned long
+// ULONGLONG
+// ULONG_PTR
+ULONG32 unsigned int
+// typedef unsigned __int64 ULONG64;
+// UNICODE_STRING
+USHORT unsigned short
+// USN
+VOID void
+// typedef wchar_t WCHAR;
+// #define WINAPI __stdcall
+WORD unsigned short
+// typedef UINT_PTR WPARAM;
