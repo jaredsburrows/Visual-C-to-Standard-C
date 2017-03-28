@@ -3,20 +3,13 @@ Visual-C-to-Standard-C
 
 Porting Windows C++ to Standard C++11/14
 
-## Table of Contents  
- 1. Build System
- 2. [Data Types](#data-types)
- 3. Threads 
- 4. Sockets
-
-<a name="data-types"/>
 ## Data Types
- - [Windows C++ data types](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85).aspx)
-   - Here is a list of the Windows header files, most of these are C++ data types that are simply `typedef`ed:
-     - `WinDef.h`, `WinNT.h`, `IntSafe.h`, `BaseTsd.h`, `ShellApi.h`, `Ddeml.h`, `WinUser.h`, `WinSvc.h`, `Winternl.h`
- - [C++ Standard Types](http://en.cppreference.com/w/cpp/types)
- - [C++ Fundamental Types](http://en.cppreference.com/w/cpp/language/types)
- - [C++ Integer Types](http://en.cppreference.com/w/cpp/types/integer)
+- [Windows C++ data types](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383751(v=vs.85).aspx)
+  - Here is a list of the Windows header files, most of these are C++ data types that are simply `typedef`ed:
+    - `WinDef.h`, `WinNT.h`, `IntSafe.h`, `BaseTsd.h`, `ShellApi.h`, `Ddeml.h`, `WinUser.h`, `WinSvc.h`, `Winternl.h`
+- [C++ Standard Types](http://en.cppreference.com/w/cpp/types)
+- [C++ Fundamental Types](http://en.cppreference.com/w/cpp/language/types)
+- [C++ Integer Types](http://en.cppreference.com/w/cpp/types/integer)
   - Here the C++ standard header that you should be using for portable C++ code:
     - `cstdint` for C++ and `stdint.h` for C
 
